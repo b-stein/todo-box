@@ -12,3 +12,8 @@ export const toggleToDo = id => ({
 	type: 'TOGGLE_TODO',
 	id
 })
+
+export const setView = text => ({
+	type: 'SET_VIEW',
+	view: text
+})
